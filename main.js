@@ -18,8 +18,8 @@ require([
     let view = new MapView({
         container: "mapContainer",
         map: map,
-        zoom: 4,
-        center: [-98.5795, 39.8283], // Center of USA
+        zoom: 5,
+        center: [78.9629, 20.5937], // Center of India
         popup: {
             dockOptions: {
                 buttonAlignment: "top-right",
