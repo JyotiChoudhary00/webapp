@@ -11,7 +11,7 @@ require([
     
     // Create the map
     let map = new Map({
-        basemap: "streets-v3"
+        basemap: "streets"
     });
 
     // Create the map view
@@ -64,10 +64,10 @@ require([
 
     // Basemap options mapping
     const basemaps = {
-        "streets": "streets-v3",
+        "streets": "streets",
         "satellite": "satellite",
         "hybrid": "hybrid",
-        "topo": "topo-map",
+        "topo": "topo",
         "gray": "gray-vector"
     };
 
