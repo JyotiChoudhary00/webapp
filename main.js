@@ -196,7 +196,7 @@ require([
     });
 
     // Optional: Uncomment to add states layer
-    // map.add(statesLayer);
+    map.add(statesLayer);
 
     console.log("✓ ArcGIS Map application initialized successfully!");
     console.log("Keyboard shortcuts: + (zoom in), - (zoom out), R (reset)");
